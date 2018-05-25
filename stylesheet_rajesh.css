@@ -1,0 +1,26 @@
+
+div{
+    padding-top: 25px;
+    padding-left: 40px;
+    display: table;
+}
+button{
+    width: 100px;
+    display: table-cell;
+}
+input{
+    width: 100px;
+    display: table-cell;
+}
+label{
+    display: table-cell;
+    width: 100px;
+    padding-right: 5px;
+}
+.error{
+    color: red;
+}
+
+p:hover{
+    transform: scale(1.25) translateX(40px);
+}

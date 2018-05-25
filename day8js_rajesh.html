@@ -1,0 +1,75 @@
+<!DOCTYPE "html">
+<html>
+    <head>
+            <script src="myscript.js"></script>
+            <link rel="stylesheet" type="text/css" href="stylesheet_rajesh.css">
+    </head>
+    <body>
+        <div>
+            <p>
+                 <button type="button" onclick="getday_time()" value="Day Time">Day Time</button>
+                 <span>
+                     <label for="day" id="day" style="width: 120px"></label>
+                     <label for="time" id="time" style="width: 250px"></label>
+                  </span> 
+                  
+            </p>
+             <p>
+                 <button type="button" onclick="getDate()" value="Date">Date</button>
+                <span id="date"></span>   
+            </p>
+            <p>
+                <span><label>1st Number: </label><input type="number" id="input1"/> </span>
+            </p>
+            <p>
+                <span><label>2nd Number: </label><input type="number" id="input2"/></span>
+            </p>
+            <p>
+                <span><button type="button" onclick="multiply()" >Multiply </button> </span>
+                <span><button type="button" onclick="divide()" >Divide </button></span> <br/>
+                <p id='calcresult' style="width: 500px"></p>
+            </p>
+            <p>
+                <button type="button" onclick="getURL()" >URL</button>
+                <span id="url" style="width: 500px"></span>
+            </p>
+            <p>
+                <input type="number" id="revinp" placeholder="123"/>
+                <span><button type="button" onclick="reverse()" >Reverse</button></span> 
+                <span id = 'revres'></span>
+            </p>
+            <p>
+                <input type="text" id='inparr' placeholder="1,2,3,4,5">
+                <span><button type="button" onclick="lowhigh()" >2nd Low High</button></span> 
+                <span id="lowhighres"></span>
+            </p>
+            <p>
+                <input type="text" id='inprange' placeholder="1,5">
+                <span><button type="button" onclick="range()" >Get Range</button></span> 
+                <span id="rangeres"></span>
+            </p>
+            <p>
+                <input type="text" id='inpmerge' placeholder="1,2,3,4,5">
+                <span><button type="button" onclick="mergeres()" >Sort</button></span> 
+                <span id="mergeres"></span>
+            </p>
+            <p>
+                <input type="text" id='inphighest' placeholder="1,2,3,4,5">
+                <span><button type="button" onclick="gethighest()" >Highest</button></span> 
+            </p>
+            <p>
+                <input type="text" id='isnan'>
+                <span><button type="button" onclick="checkIsNan()" >NaN check</button></span> 
+                <span id="nanres"></span>
+            </p>
+            <p>
+                <span><input type="text" id='data1'></span>
+                <span><input type="text" id='data2'></span>
+                <span><button type="button" onclick="checktype()" >Type check</button></span> 
+                <span id="typeres" style="width: 250px"></span>
+            </p>
+        </div>
+
+
+    </body>
+</html>
